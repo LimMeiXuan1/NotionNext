@@ -19,7 +19,7 @@ const BLOG = {
   // 3.14.1版本后，欢迎语在此配置，英文逗号隔开 ,  即可支持多个欢迎语打字效果。
   GREETING_WORDS:
     process.env.NEXT_PUBLIC_GREETING_WORDS ||
-    'Hi，这里是BlockPioneers,Hi，我们在创新的疆界为你构建未来的游戏,Hi，我们的区块链解决方案让你的业务更有价值🎉',
+    'Hi，这里是BlockPioneers,Hi，我们是你的区块链伙伴，让我们一起开创未来,Hi，在这个数字世界中，我们用技术为你打开新的可能,Hi，用我们的技术，为你的想象力插上翅膀,Hi，区块链游戏？没问题，让我们为你打造一个,Hi，我们在创新的疆界为你构建未来的游戏,Hi，我们的区块链解决方案让你的业务更有价值🎉',
 
   CUSTOM_MENU: process.env.NEXT_PUBLIC_CUSTOM_MENU || false, // 支持Menu 类型，从3.12.0版本起，各主题将逐步支持灵活的二级菜单配置，替代了原来的Page类型，此配置是试验功能、默认关闭。
 
